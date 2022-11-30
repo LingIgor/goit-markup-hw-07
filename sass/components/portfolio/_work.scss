@@ -24,22 +24,14 @@
      }
 }
 
-
   .work__box {
     transition: box-shadow $transition;
 
-    &:hover, &:focus {
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
+      &:hover, &:focus {
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+          1px 4px 6px rgba(0, 0, 0, 0.16);
+      }
   }
-  
-
-  
-
-
-  
-
 
   .work__overlay {
     position: absolute;
@@ -55,12 +47,7 @@
         opacity: 1;
         transform: translateY(-100%);
       }
-  }
-
-
-
-
-  
+  }  
 
   .work__text {
     position: absolute;
@@ -78,10 +65,7 @@
         .work__box:hover & {
             opacity: 1;
         }
-  }
-
-  
-  
+  }  
   
   .description {
     border: 1px solid #eeeeee;
@@ -94,26 +78,13 @@
         letter-spacing: 0.06em;  
         color: $h-color;
     }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.88;
+        color: $main-color;
+    }
   }
-  
- 
- 
-  
- 
-  
-  
-  
 
   
-  
-  
-  
-  
-
-  
-  .description__text {
-    font-size: 16px;
-    line-height: 1.88;
-    color: $main-color;
-  }
   
